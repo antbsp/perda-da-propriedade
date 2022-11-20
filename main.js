@@ -10,7 +10,6 @@ $(".modal-close").click(function() {
 });
 
 $(document).ready(function() {
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        alert("A visualização em dispositivos móveis pode ser prejudicada pelo tamanho da tela. Se possível, utilize um computador para acessar o site.");
-    }
+    var width = $(document).outterWidth();
+    console.log(width);
 });
