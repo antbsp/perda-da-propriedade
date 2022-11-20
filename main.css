@@ -369,6 +369,7 @@
   background-color: white;
   font-weight: 500;
   padding: 10px 20px;
+  color: black;
   border-radius: 50px;
   text-decoration: none;
 }
@@ -486,3 +487,4 @@
     display: none !important;
   }
 }
+/*# sourceMappingURL=main.css.map */
