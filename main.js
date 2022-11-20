@@ -10,6 +10,8 @@ $(".modal-close").click(function() {
 });
 
 $(document).ready(function() {
-    var width = $(document).outterWidth();
-    console.log(width);
+    var width = $(document).outerWidth();
+    if(width < 700) {
+        alert("A visualização do site em dispositivos móveis pode ser prejudicada. Se possível, utilize um computador.");
+    }
 });
